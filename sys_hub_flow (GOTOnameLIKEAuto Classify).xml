@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-10-04 06:27:39">
+<sys_hub_flow action="INSERT_OR_UPDATE">
+<access>public</access>
+<acls/>
+<active>true</active>
+<annotation/>
+<attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3291000,viewActivatedIn=naturalLanguage</attributes>
+<authored_on_release_version>28100</authored_on_release_version>
+<callable_by_client_api>false</callable_by_client_api>
+<category display_value=""/>
+<compiler_build>glide-zurich-07-01-2025__patch10-05-22-2026_06-12-2026_2311.zip</compiler_build>
+<copied_from/>
+<copied_from_name/>
+<description/>
+<display_name_after_preview/>
+<flow_priority>MEDIUM</flow_priority>
+<generation_source/>
+<internal_name>auto_classify_shcool_it_tickets</internal_name>
+<label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Workflow Record","reference":"u_incident_workflow","reference_display":"Incident Workflow","type":"reference","base_type":"reference","usedInstances":{"f971d8e8-a682-41d7-ae84-a0587102778b":["record"],"c7472fb7-7d28-42e9-82da-8d8b1fb5638f":["record"],"438ba3d2-ec3c-4424-92a7-49d4d01878be":["record"],"c0c03851-cf13-42cc-8bff-78b82a97becc":["record"],"897ccfb0-9d22-4376-b71d-e80a8e321083":["record"],"3e1cb6f2-e926-41fe-bfe9-351456d90f0f":["record"]},"attributes":{}},{"name":"Created_1.current.u_string_4","label":"Trigger - Record Created➛Incident Workflow Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"u_incident_workflow","column_name":"u_string_4","usedInstances":{"8937bccf-219b-4895-a306-8d43476f90eb":["condition"],"fb1ab329-0b41-4852-970e-a4c5844eb0c2":["condition"],"63e07923-a84a-4504-bf08-4aff3373e116":["condition"],"b411f27f-33a5-4696-9699-60a84c0062d5":["condition"],"f7f7a7fd-5460-4525-ae81-f860f3626017":["condition"]}},{"name":"Created_1.current.u_caller.email","label":"Trigger - Record Created➛Incident Workflow Record➛caller➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"3e1cb6f2-e926-41fe-bfe9-351456d90f0f":["ah_to"]}}]</label_cache>
+<latest_snapshot>fb89cff3c3e38310213a7c65e401319b</latest_snapshot>
+<master_snapshot>1219cfb3c3e38310213a7c65e40131d2</master_snapshot>
+<master_snapshot_digest/>
+<name>Auto Classify Shcool IT Tickets</name>
+<natlang/>
+<outputs/>
+<pre_compiled>false</pre_compiled>
+<remote_trigger_id>c71903f3c3e38310213a7c65e4013171</remote_trigger_id>
+<run_as>user</run_as>
+<run_with_roles/>
+<sc_callable>false</sc_callable>
+<show_draft_actions>false</show_draft_actions>
+<show_triggered_flows>false</show_triggered_flows>
+<status>published</status>
+<substatus/>
+<sys_class_name>sys_hub_flow</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-02 18:13:00</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>9e8cfa7bc3638310213a7c65e401316b</sys_id>
+<sys_mod_count>38</sys_mod_count>
+<sys_name>Auto Classify Shcool IT Tickets</sys_name>
+<sys_overrides display_value=""/>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_hub_flow_9e8cfa7bc3638310213a7c65e401316b</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-02 19:07:56</sys_updated_on>
+<type>flow</type>
+<updation_source/>
+<version>2</version>
+<version_record>631943f3c3e38310213a7c65e4013159</version_record>
+</sys_hub_flow>
+</unload>
